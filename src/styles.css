@@ -1,0 +1,115 @@
+/* Modal Styling */
+.modal-dialog {
+  max-width: 500px;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.form-check {
+  margin-bottom: 10px;
+}
+
+.form-check-label {
+  font-size: 1rem;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Action buttons in the footer */
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  height: 100vh; /* Full height for sticky sidebar */
+  background-color: #f8f9fa; /* Light background */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 0; /* Remove default padding */
+}
+
+/* Navigation Items */
+.nav-item {
+  list-style: none; /* Remove bullet points */
+  margin: 0.5rem 0; /* Add spacing between items */
+}
+
+/* Nav Links */
+.nav-link {
+  color: #495057; /* Dark Gray */
+  text-decoration: none; /* Remove underline */
+  font-weight: 500; /* Slightly bold */
+  padding: 0.75rem 1rem; /* Add padding */
+  border-radius: 0.5rem; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.nav-link:hover {
+  background-color: #e9ecef; /* Light Gray background */
+  color: #007bff; /* Blue text on hover */
+  transform: translateX(5px); /* Slight slide effect */
+}
+
+/* Active Section */
+.active-nav .nav-link {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+}
+
+/* Icons */
+.nav-link span {
+  font-size: 1.2rem; /* Increase icon size */
+  color: #6c757d; /* Muted icon color */
+}
+
+/* Hover Icon Effect */
+.nav-link:hover span {
+  color: #007bff; /* Blue icon on hover */
+}
+
+/* Responsive Sidebar (Mobile) */
+@media (max-width: 768px) {
+  .sidebar {
+    height: auto; /* Adjust height for smaller screens */
+  }
+  .nav-link {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+}
